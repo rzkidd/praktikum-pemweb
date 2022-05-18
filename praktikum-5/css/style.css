@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#aboutCard {
+    top: 6vh;
+    left: 52vh;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+
+.article {
+    width: 70%;
+}
+
+article > img {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.article p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.article a {
+    text-decoration: none;
+}
+
+.line {
+    height: 1.25px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer > p {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.show-more {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.show-more > a {
+    text-decoration: none;
+}
+
+.show-more > a:visited {
+    color: blue;
+}
